@@ -8,14 +8,12 @@
 //   console.log(b ** 2);
 // }
 
-
 //2-misol
 // let x = +prompt("Birinchi son");
 // let y = +prompt("ikkinchi son");
 // let z = +prompt("uchinchi son");
 
 // console.log(Math.max(x, y, z));
-
 
 //2-yo'li
 // let x = +prompt("Birinchi son");
@@ -30,8 +28,6 @@
 //   max = z;
 // }
 // console.log(max);
-
-
 
 //3-misol
 // let a = prompt("Sonni kiriting");
@@ -87,23 +83,187 @@
 // son = Math.trunc(a / 100);
 // console.log(son);
 
-
-
-
 // 10-misol
 // let a = +prompt("Sonni kiriting");
-// son100 = Math.trunc(a / 100);
-// son10 = Math.trunc(a / 10);
-// son1 = a % 10;
+// let max;
+// let b = a % 10; // 7
+// let o = ((a % 100) - b) / 10; // 3
+// let y = (a / 100) - (a % 100) / 100; // 5
 
-// let max = son1;
-
-// if (max < son10) {
-//   max = son10;
+// if (b > o) {
+//      max = b;
+// } else {
+//      max = o;
 // }
-// if (max < son100) {
-//   max = son100;
+
+// if (max < y) {
+//      max = y;
+// }
+
+/////////////////////////////////////////////////////2 dars vazifa//////////////////////////////////////////////////////////////
+// 1-misol
+// let a = 57;
+// let b = 67;
+
+// let max;
+// if (a > b) {
+//   max = a;
+// } else {
+//   max = b;
+// }
+// sum = max / 10 - (max % 10) / 10;
+// console.log(sum);
+
+//2-misol
+// let a = 798;
+// let min;
+// let b = a % 10;
+// let o = ((a % 100) - b) / 10;
+// let y = (a / 100) - (a % 100) / 100;
+
+// if (b < o) {
+//      min = b;
+// } else {
+//      min = o;
+// }
+
+// if (min > y) {
+//      min = y;
+// }
+// console.log(min);
+
+//3-misol
+// let a = 798;
+// let res;
+// let b = a % 10;
+// let x = ((a % 100) - b) / 10;
+
+// if (x % 3 == 0) {
+//   res = "Rost";
+// } else {
+//   res = "yolg'on";
+// }
+// console.log(res);
+
+//4-misol
+// let x = 5;
+// let y = 7;
+// let z = 9;
+
+// if (x < y) {
+//   min = x;
+// } else {
+//   min = y;
+// }
+// if (min > z) {
+//   min = z;
+// }
+// console.log(min ** 3);
+
+//5-misol
+// let x = 5;
+// let y = 6;
+// let z = 9;
+// let t = 2;
+
+// if (x < y) {
+//   max = y;
+// }else {
+//   max = x;
+// if (max < z) {
+//   max = z;
+// }
+// if (max < t) {
+//   max = t;
 // }
 // console.log(max);
 
-// 10 misol chiqmadi!!!
+//6-misol
+// let x = 5;
+// let y = 8;
+// let z = 9;
+
+// if (x < y) {
+//   max = y;
+// } else {
+//   max = x;
+// }
+// if (max < z) {
+//   max = z;
+// }
+
+// if (x < y) {
+//   min = x;
+// } else {
+//   min = y;
+// }
+// if (min > z) {
+//   min = z;
+// }
+
+// let sum = x + y + z;
+// let res = sum - max - min;
+// console.log(res);
+
+//7-misol
+// let x = 5;
+// let y = 54;
+// let z = 15;
+
+// if (x < y) {
+//   max = y;
+// } else {
+//   max = x;
+// }
+// if (max < z) {
+//   max = z;
+// }
+
+// if (x < y) {
+//   min = x;
+// } else {
+//   min = y;
+// }
+// if (min > z) {
+//   min = z;
+// }
+
+// let sum = x + y + z;
+// let res = sum - max - min;
+// let answer = max + res;
+// console.log(answer);
+
+//8-misol
+
+
+
+
+
+
+//10-misol
+// let x = 5;
+// let y = 45;
+// let z = 15;
+
+// if (x < y) {
+//   max = y;
+// } else {
+//   max = x;
+// }
+// if (max < z) {
+//   max = z;
+// }
+
+// if (x < y) {
+//   min = x;
+// } else {
+//   min = y;
+// }
+// if (min > z) {
+//   min = z;
+// }
+
+// let sum = x + y + z;
+// let res = sum - max - min;
+// let answer = max + res + min;
+// console.log(answer);

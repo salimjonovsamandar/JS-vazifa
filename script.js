@@ -234,11 +234,50 @@
 // console.log(answer);
 
 //8-misol
+// let x = 5;
+// let y = 45;
+// let z = 15;
+// res = 0;
 
+// if (x % 3 == 0) {
+//   res++;
+// }
+// if (y % 3 == 0) {
+//   res++;
+// }
+// if (z % 3 == 0) {
+//   res++;
+// }
+// console.log(res);
 
+//9-misol
+// let x = 5;
+// let y = 43;
+// let z = 15;
+// res3 = 0;
+// res = 0;
 
+// if (x % 3 == 0) {
+//   res3++;
+// }
+// if (y % 3 == 0) {
+//   res3++;
+// }
+// if (z % 3 == 0) {
+//   res3++;
+// }
 
-
+// if (x % 5 == 0) {
+//   res++;
+// }
+// if (y % 5 == 0) {
+//   res++;
+// }
+// if (z % 5 == 0) {
+//   res++;
+// }
+// console.log(res3);
+// console.log(res);
 
 //10-misol
 // let x = 5;

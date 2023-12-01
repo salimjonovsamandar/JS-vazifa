@@ -331,12 +331,12 @@
 
 ////////////////////////////////////////////////4 vazifa////////////////////////////////////////////////
 
-let n = +prompt("safar uchun to'plangan summani kiriting")
-let doller =750*1100.34
-let evro =120*12354.03
-let sum = doller+evro
-if(n>sum){
-    console.log("oq yo'l, Alisher!");
-}else{
-    console.log("Alisher,ozigina sabir qilish kerak bolar ekan");
+let n = +prompt("safar uchun to'plangan summani kiriting");
+let doller = 750 * 1100.34;
+let evro = 120 * 12354.03;
+let sum = doller + evro;
+if (n > sum) {
+  console.log("oq yo'l, Alisher!");
+} else {
+  console.log("Alisher,ozigina sabir qilish kerak bolar ekan");
 }

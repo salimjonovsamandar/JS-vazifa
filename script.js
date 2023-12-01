@@ -100,7 +100,7 @@
 //      max = y;
 // }
 
-/////////////////////////////////////////////////////2 dars vazifa//////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////2 dars vazifa/////////////////////////////////////////////////////
 // 1-misol
 // let a = 57;
 // let b = 67;
@@ -306,3 +306,37 @@
 // let res = sum - max - min;
 // let answer = max + res + min;
 // console.log(answer);
+
+//12-misol
+// let x = 10;
+// let y = -4;
+// let z = 12;
+// let rec = 0;
+// let count = 0;
+// if (x > 0) {
+//   count++;
+//   rec += x;
+// }
+// if (y > 0) {
+//   count++;
+//   rec += y;
+// }
+// if (z > 0) {
+//   count++;
+//   rec += z;
+// }
+// let sum = rec / count;
+
+// console.log(sum);
+
+////////////////////////////////////////////////4 vazifa////////////////////////////////////////////////
+
+let n = +prompt("safar uchun to'plangan summani kiriting")
+let doller =750*1100.34
+let evro =120*12354.03
+let sum = doller+evro
+if(n>sum){
+    console.log("oq yo'l, Alisher!");
+}else{
+    console.log("Alisher,ozigina sabir qilish kerak bolar ekan");
+}

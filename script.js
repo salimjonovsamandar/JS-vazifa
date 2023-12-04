@@ -475,29 +475,21 @@
 // let t = +prompt("Temperaturani kiriting");
 // let kelvin = t + 273.15;
 // let Farangeyit = t * 1.8 + 32.0;
-// console.log(kelvin);
-// console.log(Farangeyit.toFixed(5));
+// console.log(`Kelvindagi qiymati ${kelvin}`);
+// console.log(`Farangeyit qiymati ${Farangeyit.toFixed(5)}`);
 
-//14-misol
-
-
-
-// let n = +prompt("N sonini kiriting");
-// let sum = 0;
-// let res;
-// let counter;
-// for (let i = 1; i <= n; i++) {
-//   i = i * i * i;
-//   sum += i;
-// }
-// for (let i; i <= sum; i++) {
+//14-misol Kunlardan bir kuni Rohatoy bir ketma-ketlikni ko'rib qoldi  u quyidagicha: 1³+2³+3³+.....+N³ U ketma-ketlikni qiziqarli deb ataymiz qachonki uning bòluvchilar soni toq bo'lsa. Berilgan N uchun ketma-ketlik qiziqarli yoki yòqligini aniqlang
+// let n = +prompt("Sonni kiriting");
+// counter = 0;
+// let sum = ((n * (n + 1)) / 2) ** 2;
+// for (var i = 1; i <= sum; i++) {
 //   if (sum % i == 0) {
 //     counter++;
 //   }
+//   if (counter % 2 != 0) {
+//     res = "Qiziqarli";
+//   } else {
+//     res = "qiziqarli emas";
+//   }
 // }
-// if (counter % 2 == 0) {
-//   res = "Qiziqarli emas";
-// } else {
-//   res = "Qiziqarli";
-// }
-// alert(res);
+// console.log(res);

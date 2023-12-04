@@ -302,6 +302,7 @@
 //   min = z;
 // }
 
+//11-misol
 // let sum = x + y + z;
 // let res = sum - max - min;
 // let answer = max + res + min;
@@ -331,6 +332,7 @@
 
 ////////////////////////////////////////////////4 vazifa////////////////////////////////////////////////
 
+//1-misol
 // let n = +prompt("safar uchun to'plangan summani kiriting");
 // let doller = 750 * 1100.34;
 // let evro = 120 * 12354.03;
@@ -343,7 +345,7 @@
 
 ////////////////////////////////////////////////5 vazifa////////////////////////////////////////////////
 
-//1-misol
+//1-misol  1dan n gacha bo'lgan barcha toq sonlar yiģindisini toping
 // let n = +prompt("Sonni kiriting");
 // let sum = 0;
 // for (var i = 1; i <= n; i++) {
@@ -353,7 +355,7 @@
 // }
 // console.log(sum);
 
-//2-misol
+//2-misol  n dan 1 gacha bo'lgan barcha 3 ga karrali sonlar ko'paytmasini  toping.
 // let n = +prompt("Sonni kiriting");
 // let sum = 1;
 // for (var i = 1; i <= n; i++) {
@@ -363,7 +365,7 @@
 // }
 // console.log(sum);
 
-//3-misol
+//3-misol  a dan b gacha barcha 3 ga karrali sonlarning sonini toping.
 // let a = +prompt("A Sonni kiriting");
 // let b = +prompt("B Sonni kiriting");
 // let sum = 0;
@@ -374,7 +376,7 @@
 // }
 // console.log(sum);
 
-//4-misol
+//4-misol  a dan b gacha barcha 5 ga hamda 7 ga  karrali sonlar yig'indisini toping.
 // let a = +prompt("A Sonni kiriting");
 // let b = +prompt("B Sonni kiriting");
 // let sum = 0;
@@ -385,7 +387,7 @@
 // }
 // console.log(sum);
 
-//5-misol
+//5-misol  a dan b gacha barcha toq sonlar kvadratlarining yig‘indisini toping.
 // let a = +prompt("A Sonni kiriting");
 // let b = +prompt("B Sonni kiriting");
 // let sum = 0;
@@ -396,7 +398,7 @@
 // }
 // console.log(sum);
 
-//6-misol
+//6-misol  b dan a gacha barcha juft sonlar kublarining ko‘paytmasini toping.
 // let a = +prompt("A Sonni kiriting");
 // let b = +prompt("B Sonni kiriting");
 // let sum = 1;
@@ -407,18 +409,39 @@
 // }
 // console.log(sum);
 
-//7-misol                                  chiqmadi
+//7-misol  Ixtiyoriy sonning bo'luvchilarini ekranga chiqaruvchi algoritm tuzing.
 // let n = +prompt("Sonni kiriting");
-// for (var i = n; i <= 1; i--) {
+// for (var i = 1; i <= n; i++) {
 //   if (n % i == 0) {
-//     sum = n;
+//     console.log(i);
 //   }
 // }
-// console.log(sum);
 
-//8-misol
+//8-misol  Ixtiyoriy sonning bo'luvchilari sonini  ekranga chiqaruvchi algoritm yozing.
+// let n = +prompt("Sonni kiriting");
+// counter = 0
+// for (var i = 1; i <= n; i++) {
+//   if (n % i == 0) {
+//     counter ++
+//   }
+// }
+// console.log(counter)
 
-//9-misol
+//9-misol  Ixtiyoriy sonning tub yoki tub emasligini aniqlovchi algoritmni yozing
+// let n = +prompt("Sonni kiriting");
+// let counter = 0
+// let result;
+// for (var i = 1; i <= n; i++) {
+//   if (n % i == 0) {
+//     counter++;
+//   }
+// }
+// if (counter == 2) {
+//   result = "Bu son tub";
+// } else {
+//   result = "Bu son tub emas";
+// }
+// console.log(result);
 
 //10-misol Sizga ikki natural son berilgan. Sizning vazifangiz shu sonlar orasidagi 3 ga bo'linadigan ammo 7 ga bo'linmaydigan sonlar yeg'indisini topish?
 
@@ -448,4 +471,33 @@
 // let sum = 180 * (n - 2);
 // console.log(sum);
 
-//13-misol  
+//13-misol Sizga selsiy shkalasi bo'yicha harorat beriladi.Uning Kelvin va Farangeyit  shkalasi bo'yicha haroratini topuvchi dastur tuzing.
+// let t = +prompt("Temperaturani kiriting");
+// let kelvin = t + 273.15;
+// let Farangeyit = t * 1.8 + 32.0;
+// console.log(kelvin);
+// console.log(Farangeyit.toFixed(5));
+
+//14-misol
+
+
+
+// let n = +prompt("N sonini kiriting");
+// let sum = 0;
+// let res;
+// let counter;
+// for (let i = 1; i <= n; i++) {
+//   i = i * i * i;
+//   sum += i;
+// }
+// for (let i; i <= sum; i++) {
+//   if (sum % i == 0) {
+//     counter++;
+//   }
+// }
+// if (counter % 2 == 0) {
+//   res = "Qiziqarli emas";
+// } else {
+//   res = "Qiziqarli";
+// }
+// alert(res);

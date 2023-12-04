@@ -331,12 +331,121 @@
 
 ////////////////////////////////////////////////4 vazifa////////////////////////////////////////////////
 
-let n = +prompt("safar uchun to'plangan summani kiriting");
-let doller = 750 * 1100.34;
-let evro = 120 * 12354.03;
-let sum = doller + evro;
-if (n > sum) {
-  console.log("oq yo'l, Alisher!");
-} else {
-  console.log("Alisher,ozigina sabir qilish kerak bolar ekan");
-}
+// let n = +prompt("safar uchun to'plangan summani kiriting");
+// let doller = 750 * 1100.34;
+// let evro = 120 * 12354.03;
+// let sum = doller + evro;
+// if (n > sum) {
+//   console.log("oq yo'l, Alisher!");
+// } else {
+//   console.log("Alisher,ozigina sabir qilish kerak bolar ekan");
+// }
+
+////////////////////////////////////////////////5 vazifa////////////////////////////////////////////////
+
+//1-misol
+// let n = +prompt("Sonni kiriting");
+// let sum = 0;
+// for (var i = 1; i <= n; i++) {
+//   if (i % 2 == 1) {
+//     sum += i;
+//   }
+// }
+// console.log(sum);
+
+//2-misol
+// let n = +prompt("Sonni kiriting");
+// let sum = 1;
+// for (var i = 1; i <= n; i++) {
+//   if (i % 3 == 0) {
+//     sum *= i;
+//   }
+// }
+// console.log(sum);
+
+//3-misol
+// let a = +prompt("A Sonni kiriting");
+// let b = +prompt("B Sonni kiriting");
+// let sum = 0;
+// for (var i = a; i <= b; i++) {
+//   if (i % 3 == 0) {
+//     sum++;
+//   }
+// }
+// console.log(sum);
+
+//4-misol
+// let a = +prompt("A Sonni kiriting");
+// let b = +prompt("B Sonni kiriting");
+// let sum = 0;
+// for (var i = a; i <= b; i++) {
+//   if (i % 5 == 0 && i % 7 == 0) {
+//     sum += i;
+//   }
+// }
+// console.log(sum);
+
+//5-misol
+// let a = +prompt("A Sonni kiriting");
+// let b = +prompt("B Sonni kiriting");
+// let sum = 0;
+// for (var i = a; i <= b; i++) {
+//   if (i % 2 == 1) {
+//     sum +  = i ** 2;
+//   }
+// }
+// console.log(sum);
+
+//6-misol
+// let a = +prompt("A Sonni kiriting");
+// let b = +prompt("B Sonni kiriting");
+// let sum = 1;
+// for (var i = a; i <= b; i++) {
+//   if (i % 2 == 0) {
+//     sum *= i ** 3;
+//   }
+// }
+// console.log(sum);
+
+//7-misol                                  chiqmadi
+// let n = +prompt("Sonni kiriting");
+// for (var i = n; i <= 1; i--) {
+//   if (n % i == 0) {
+//     sum = n;
+//   }
+// }
+// console.log(sum);
+
+//8-misol
+
+//9-misol
+
+//10-misol Sizga ikki natural son berilgan. Sizning vazifangiz shu sonlar orasidagi 3 ga bo'linadigan ammo 7 ga bo'linmaydigan sonlar yeg'indisini topish?
+
+// let a = +prompt("A Sonni kiriting");
+// let b = +prompt("B Sonni kiriting");
+// let sum = 0;
+// for (var i = a; i <= b; i++) {
+//   if (i % 3 == 0 && i % 7 != 0) {
+//     sum += i;
+//   }
+// }
+// console.log(sum);
+
+//11-misol Doskaga 1 dan n gacha sonlari yozib chiqdi. Ulardan  faqat 3, 5, 7 ga karralilari qolib qolganlari o'chirib tashlandi. o'sha qolgan sonlari yig'indisini toping
+// let a = +prompt("A Sonni kiriting");
+// let b = +prompt("B Sonni kiriting");
+// let sum = 0;
+// for (var i = a; i <= b; i++) {
+//   if (i % 3 == 0 || i % 5 == 0 || i % 7 == 0) {
+//     sum += i;
+//   }
+// }
+// console.log(sum);
+
+//12-misol Tomonlari soni N bo'lgan qovariq ko'p burchakning ichki burchaklari yig'indisini toping
+// let n = +prompt("Sonni kiriting");
+// let sum = 180 * (n - 2);
+// console.log(sum);
+
+//13-misol  

@@ -1086,3 +1086,155 @@
 //   return sum;
 // }
 // console.log(functionA([1, 2, 3, 4, 5, 6, 7, 8, 9]));
+
+////////////////////////////////////////////////9 vazifa////////////////////////////////////////////////
+
+//1-masala
+// let arr = [
+//   {
+//     name: "John",
+//     age: 34,
+//   },
+//   {
+//     name: "Adam",
+//     age: 15,
+//   },
+//   {
+//     name: "Doe",
+//     age: 21,
+//   },
+//   {
+//     name: "Alex",
+//     age: 76,
+//   },
+// ];
+// let sum = 1;
+// for (let i = 0; i < arr.length; i++) {
+//     sum *= arr[i].age;
+// }
+// console.log(sum);
+
+//2-masala
+// let arr = [
+//   {
+//     name: "John",
+//     age: 34,
+//   },
+//   {
+//     name: "Adam",
+//     age: 15,
+//   },
+//   {
+//     name: "Doe",
+//     age: 21,
+//   },
+//   {
+//     name: "Alex",
+//     age: 76,
+//   },
+// ];
+// let arr1 = [];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i].age > 25) {
+//     arr1.push(arr[i].age);
+//   }
+// }
+// console.log(arr1);
+
+//3-masala
+// let arr = [
+//   {
+//     name: "John",
+//     age: 34,
+//   },
+//   {
+//     name: "Adam",
+//     age: 15,
+//   },
+//   {
+//     name: "Doe",
+//     age: 21,
+//   },
+//   {
+//     name: "Alex",
+//     age: 76,
+//   },
+// ];
+// let sum = 1;
+// for (let i = 0; i < arr.length; i++) {
+//   sum += arr[i].age / 4;
+// }
+// console.log(`o'rtacha yosh: ${sum}`);
+
+//4-masala
+// let arr = [
+//   {
+//     name: "John",
+//     age: 34,
+//   },
+//   {
+//     name: "Adam",
+//     age: 15,
+//   },
+//   {
+//     name: "Doe",
+//     age: 21,
+//   },
+//   {
+//     name: "Alex",
+//     age: 76,
+//   },
+// ];
+// function max(arg) {
+//   let max = arg[0].age;
+//   for (const item of arg) {
+//     if (max < item.age) {
+//       max = item.age;
+//     }
+//   }
+//   return max;
+// }
+// console.log(max(arr));
+//5-masala
+// let arr = [
+//   {
+//     name: "John",
+//     age: 34,
+//   },
+//   {
+//     name: "Adam",
+//     age: 15,
+//   },
+//   {
+//     name: "Doe",
+//     age: 21,
+//   },
+//   {
+//     name: "Alex",
+//     age: 76,
+//   },
+// ];
+// function min(arg){
+//   let min = arg[0].age
+//   for (const item of arg) {
+//       if(min > item.age){
+//           min = item.age
+//       }
+//   }
+//   for (const item of arg) {
+//       if(item.age == min){
+//           return item.age
+//       }
+//   }
+// }
+// console.log(min(arr));
+
+//6-masala
+// let arr = [1, 2, 3, 4, 5, 6];
+// let arr1 = arr.map((value) => {
+//   if (value % 2 == 1) {
+//     return value ** 2;
+//   }
+//   return value ** 3;
+// });
+// console.log(arr1);
